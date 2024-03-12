@@ -11,3 +11,5 @@
 ```
 pip install -r requirements.txt
 ```
+
+_if you run into issues with "OSError: [Errno 2] No such file or directory" , install the package with pip_
