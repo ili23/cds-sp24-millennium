@@ -18,7 +18,10 @@ with open("data/quarterly_var_names.csv", "r") as file:
             # assert False
         name, type = line_arr[0].lower(), line_arr[1]
         if type == "Char":
-            converted_type = "VARCHAR(256)"
+            if name == "busdesc":  # Business description, can be longer than 256 chars
+                converted_type = "VARCHAR(2048)"
+            else:
+                converted_type = "VARCHAR(256)"
         elif type == "Float":
             converted_type = "NUMERIC(20,4)"
         elif type == "Date":
