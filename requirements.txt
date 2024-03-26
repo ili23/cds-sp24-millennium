@@ -5,3 +5,5 @@ scikit-learn==1.0.2
 scipy @ file:///opt/concourse/worker/volumes/live/7d10d993-3825-404e-6e5d-9947c19e8c6d/volume/scipy_1618855951189/work
 seaborn @ file:///tmp/build/80754af9/seaborn_1608578541026/work
 sklearn==0.0
+psycopg2-binary
+sqlalchemy
