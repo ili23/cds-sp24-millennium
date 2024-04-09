@@ -5,3 +5,4 @@ data/b.csv
 data/c.csv
 data/d.csv
 data/e.csv
+*.pyc
