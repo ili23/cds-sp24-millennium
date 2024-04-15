@@ -6,3 +6,5 @@ data/c.csv
 data/d.csv
 data/e.csv
 *.pyc
+**/.ipynb_checkpoints
+data/returns/

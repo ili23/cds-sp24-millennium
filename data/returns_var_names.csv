@@ -1,62 +1,62 @@
-Variable Name,Type,Description,,,,
-cusip,Char,Cusip (cusip),,,,
-ncusip,Char,Ncusip (ncusip),,,,
-comnam,Char,Company Name (comnam),,,,
-ticker,Char,Ticker (ticker),,,,
-permco,Float,CRSP Permanent Company Number (permco),,,,
-shrcd,Float,Share Code (shrcd),,,,
-shrcls,Char,Share Class (shrcls),,,,
-issuno,Float,Nasdaq Issue Number (issuno),,,,
-exchcd,Float,Exchange Code (exchcd),,,,
-hexcd,Float,Header Exchange Code (hexcd),,,,
-siccd,Float,SIC Code (siccd),,,,
-hsiccd,Float,Header SIC Code (hsiccd),,,,
-hsicmg,Float,Header SIC Major Group (hsicmg),,,,
-hsicig,Float,Header SIC Industry Group (hsicig),,,,
-nameendt,Date,Names Ending Date (nameendt),,,,
-tsymbol,Char,Trading Symbol (tsymbol),,,,
-naics,Char,North American Industry Class System (naics),,,,
-primexch,Char,Primary Exchange (primexch),,,,
-trdstat,Char,Trading Status (trdstat),,,,
-secstat,Char,Security Status (secstat),,,,
-prc,Float,Price or Bid/Ask Average (prc),,,,
-vol,Float,Volume (vol),,,,
-openprc,Float,Price Alternate (openprc),,,,
-askhi,Float,Ask or High Price (askhi),,,,
-bidlo,Float,Bid or Low Price (bidlo),,,,
-bid,Float,Bid (bid),,,,
-ask,Float,Ask (ask),,,,
-numtrd,Float,Number of Trades (numtrd),,,,
-ret,Float,Returns (ret),,,,
-retx,Float,Returns without Dividends (retx),,,,
-shrout,Float,Number of Shares Outstanding (shrout),,,,
-shrflg,Float,Share Flag (shrflg),,,,
-shrenddt,Date,Shares Observation End Date (shrenddt),,,,
-dlstcd,Float,Delisting Code (dlstcd),,,,
-nwperm,Float,New CRSP Permno (nwperm),,,,
-nextdt,Date,Date of Next Available Information (nextdt),,,,
-dlamt,Float,Amount After Delisting (dlamt),,,,
-dlprc,Float,Delisting Price (dlprc),,,,
-dlpdt,Date,Date of Delisting Payment (dlpdt),,,,
-dlret,Float,Delisting Return (dlret),,,,
-dlretx,Float,Delisting Return without Dividends (dlretx),,,,
-distcd,Float,Distribution Code (distcd),,,,
-divamt,Float,Dividend Cash Amount (divamt),,,,
-facpr,Float,Factor to Adjust Price (facpr),,,,
-facshr,Float,Factor to Adjust Shares (facshr),,,,
-cfacpr,Float,Cumulative Factor to Adjust Price (cfacpr),,,,
-cfacshr,Float,Cumulative Factor to Adjust Shares (cfacshr),,,,
-dclrdt,Date,Declaration Date (dclrdt),,,,
-rcrddt,Date,Record Date (rcrddt),,,,
-paydt,Date,Payment Date (paydt),,,,
-acperm,Float,Acquiring PERMNO (acperm),,,,
-accomp,Float,Acquiring PERMCO (accomp),,,,
-trtscd,Float,Traits Code (trtscd),,,,
-nmsind,Float,National Market Indicator (nmsind),,,,
-mmcnt,Float,Market Maker Count (mmcnt),,,,
-nsdinx,Float,NASD Index (nsdinx),,,,
-vwretd,Float,Value-Weighted Return (includes distributions) (vwretd),,,,
-vwretx,Float,Value-Weighted Return (excluding dividends) (vwretx),,,,
-ewretd,Float,Equal-Weighted Return (includes distributions) (ewretd),,,,
-ewretx,Float,Equal-Weighted Return (excluding dividends) (ewretx),,,,
-sprtrn,Float,Return on S&P Composite Index (sprtrn),,,,
+Variable Name,Type,Description
+cusip,Char,Cusip (cusip)
+ncusip,Char,Ncusip (ncusip)
+comnam,Char,Company Name (comnam)
+ticker,Char,Ticker (ticker)
+permco,Float,CRSP Permanent Company Number (permco)
+shrcd,Float,Share Code (shrcd)
+shrcls,Char,Share Class (shrcls)
+issuno,Float,Nasdaq Issue Number (issuno)
+exchcd,Float,Exchange Code (exchcd)
+hexcd,Float,Header Exchange Code (hexcd)
+siccd,Float,SIC Code (siccd)
+hsiccd,Float,Header SIC Code (hsiccd)
+hsicmg,Float,Header SIC Major Group (hsicmg)
+hsicig,Float,Header SIC Industry Group (hsicig)
+nameendt,Date,Names Ending Date (nameendt)
+tsymbol,Char,Trading Symbol (tsymbol)
+naics,Char,North American Industry Class System (naics)
+primexch,Char,Primary Exchange (primexch)
+trdstat,Char,Trading Status (trdstat)
+secstat,Char,Security Status (secstat)
+prc,Float,Price or Bid/Ask Average (prc)
+vol,Float,Volume (vol)
+openprc,Float,Price Alternate (openprc)
+askhi,Float,Ask or High Price (askhi)
+bidlo,Float,Bid or Low Price (bidlo)
+bid,Float,Bid (bid)
+ask,Float,Ask (ask)
+numtrd,Float,Number of Trades (numtrd)
+ret,Float,Returns (ret)
+retx,Float,Returns without Dividends (retx)
+shrout,Float,Number of Shares Outstanding (shrout)
+shrflg,Float,Share Flag (shrflg)
+shrenddt,Date,Shares Observation End Date (shrenddt)
+dlstcd,Float,Delisting Code (dlstcd)
+nwperm,Float,New CRSP Permno (nwperm)
+nextdt,Date,Date of Next Available Information (nextdt)
+dlamt,Float,Amount After Delisting (dlamt)
+dlprc,Float,Delisting Price (dlprc)
+dlpdt,Date,Date of Delisting Payment (dlpdt)
+dlret,Float,Delisting Return (dlret)
+dlretx,Float,Delisting Return without Dividends (dlretx)
+distcd,Float,Distribution Code (distcd)
+divamt,Float,Dividend Cash Amount (divamt)
+facpr,Float,Factor to Adjust Price (facpr)
+facshr,Float,Factor to Adjust Shares (facshr)
+cfacpr,Float,Cumulative Factor to Adjust Price (cfacpr)
+cfacshr,Float,Cumulative Factor to Adjust Shares (cfacshr)
+dclrdt,Date,Declaration Date (dclrdt)
+rcrddt,Date,Record Date (rcrddt)
+paydt,Date,Payment Date (paydt)
+acperm,Float,Acquiring PERMNO (acperm)
+accomp,Float,Acquiring PERMCO (accomp)
+trtscd,Float,Traits Code (trtscd)
+nmsind,Float,National Market Indicator (nmsind)
+mmcnt,Float,Market Maker Count (mmcnt)
+nsdinx,Float,NASD Index (nsdinx)
+vwretd,Float,Value-Weighted Return (includes distributions) (vwretd)
+vwretx,Float,Value-Weighted Return (excluding dividends) (vwretx)
+ewretd,Float,Equal-Weighted Return (includes distributions) (ewretd)
+ewretx,Float,Equal-Weighted Return (excluding dividends) (ewretx)
+sprtrn,Float,Return on S&P Composite Index (sprtrn)
