@@ -32,7 +32,7 @@ with open("data/quarterly_var_names.csv", "r") as file:
         names.append(name)
         converted.append(name + " " + converted_type)
         converted = list(set(converted))
-    with open("converted.txt", "w") as output:
+    with open("converted_quarterly.txt", "w") as output:
         output.write(",\n".join(converted))
 
 with open("data/quarterly_fundamentals.csv", "r") as file:
